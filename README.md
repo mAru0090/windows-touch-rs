@@ -40,6 +40,6 @@
 ## 機能
 Unix/Linuxの'touch'コマンドと同じように使えますー
 ## ライセンス
-Mit
+MIT
 ## 作者
 # tmaru0090(tanukimaru0090)
