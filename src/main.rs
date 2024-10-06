@@ -17,7 +17,7 @@ struct Touch{
     #[arg(value_name="ACCESS",short,long,global = true)]
     access:bool,
     #[arg(value_name="MODIFY",short,long,global = true)]
-    modify:Option<String>,
+    modify:bool,
     #[arg(value_name="NO CREATE",short='c',long,global = true)]
     no_create:bool,
     #[arg(value_name="DATE",short,long,global = true)]
@@ -46,7 +46,7 @@ fn main()->Result<(),Box<dyn std::error::Error>> {
             info!("file_name: {:?}",f.clone());
             if touch.access{
                 update_access_time(&f)?;
-            }else if touch.modify.is_some(){
+            }else if touch.modify{
                 update_modification_time(&f)?;
             }else if touch.time.is_some(){
                 let timestamp = touch.time.clone().unwrap();
