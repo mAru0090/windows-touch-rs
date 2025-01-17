@@ -1,6 +1,6 @@
 # windows-touch-rs
 ## 概要
-このプログラムは、Unix/Linux系の'touch'コマンドをWindowsで使えるようにしたものですー
+このプログラムでは、Unix/Linux系の'touch'コマンドをWindowsで使えるようにしたもの。
 ## 目次
 - [インストール方法](#インストール方法)
 - [使い方](#使い方)
@@ -9,7 +9,7 @@
 - [作者](#作者)
 
 ## インストール方法
-# ソースコードからビルドする場合(ソースコードからビルドする場合Rustコンパイラが必要です)
+# ソースコードからビルドする場合(ソースコードからビルドする場合Rustコンパイラが必要)
 ```
   git clone https://github.com/tmaru0090/windows-touch-rs
   cd windows-touch-rs
@@ -38,7 +38,7 @@
     -h, --help                   Print help
 ```
 ## 機能
-Unix/Linuxの'touch'コマンドと同じように使えますー
+Unix/Linuxの'touch'コマンドと同じように使えるはず
 ## ライセンス
 MIT
 ## 作者
