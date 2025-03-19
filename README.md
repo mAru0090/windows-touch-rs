@@ -1,6 +1,6 @@
 # windows-touch-rs
 ## 概要
-このプログラムでは、Unix/Linux系の'touch'コマンドをWindowsで使えるようにしたもの。
+このプログラムは、Unix/Linux系の'touch'コマンドをWindowsで使えるようにしたもの。
 ## 目次
 - [インストール方法](#インストール方法)
 - [使い方](#使い方)
